@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer ></script>
+</head>
+<body>
+<main>
+<section id="cadastro">
+    <form action="" method="get">
+        <h2 id="cadastro">Formulário de Cadastro</h2>
+
+        <label for="username">Nome de Usuário</label>
+        <input type="text" name="username" id="username">
+        <p class="error-text" id="username-helper" class="helper-text">O nome de usuário deve ter entre 3 e 20 caracteres!</p>
+
+        <label for="date">Data de Nascimento</label>
+        <input type="date" name="date" id="date">
+        <p class="error-text" id="username-helper" class="helper-text">Data Inválida</p>
+
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email">
+        <p class="error-text" id="username-helper" class="helper-text">Endereço de E-mail Inválido!</p>
+
+        <label for="password">Senha</label>
+        <input type="password" name="password" id="password">
+        <p class="error-text" id="username-helper" class="helper-text">Senha Inválida!</p>
+
+        <label for="confirmPassword">Confirme a Senha</label>
+        <input type="Password" name="confirmPassword" id="confirmPassword">
+        <p class="error-text" id="username-helper" class="helper-text">Senhas Devem Ser Iguais!</p>
+
+        <button type="submit">ENVIAR</button>
+    </form>
+</section>
+</main>
+<a href="./logIn.html">login</a>
+</body>
+</html>
+
