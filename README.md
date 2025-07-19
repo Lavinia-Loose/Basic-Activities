@@ -1,2 +1,2 @@
 # Basic-Activities
-Algumas atividades e diferentes linguagens
+Algumas atividades de diferentes linguagens com descrições
